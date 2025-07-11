@@ -1,5 +1,8 @@
 ﻿
 
+using System.Transactions;
+using System.Xml.Linq;
+
 namespace Assignment
 {
     internal class Program
@@ -98,19 +101,50 @@ namespace Assignment
 
         //    for (int i = 2; i < num / 2; i++)
         //    {
-            
+
         //         if (num % i == 0)
         //        {
         //            return false;
         //        }
 
-               
+
         //    }
         //    return true;
         //}   
         #endregion
 
+        //#region q6
+        //static void MinAndmax(int[] arr , out int max, out int min)
+        //{
 
+
+        //    if(arr is not null)
+        //    {
+        //        max = arr[0];
+        //        min = arr[0];
+        //        for(int i = 1; i < arr.Length; i++)
+        //        {
+        //            if (arr[i] > max)
+        //            {
+        //                max = arr[i];
+        //            }
+        //            if (arr[i] < min) {
+                    
+        //                min= arr[i];
+                    
+        //            }
+
+        //        }
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("array is empty ");
+        //        min = 0;    
+        //        max = 0;    
+        //    }
+
+        }
+        #endregion
 
         static void Main(string[] args)
         {
@@ -242,6 +276,34 @@ namespace Assignment
 
             //}
 
+
+
+
+
+            #endregion
+
+
+            #region Q6
+
+            //6 - Create a function named MinMaxArray, to return the minimum and
+            //maximum values stored in an array, using reference parameters 
+
+            //Console.WriteLine("enter the array size ");
+            //int.TryParse(Console.ReadLine(), out int size);
+
+            //int[] arr=new int[size];
+            //for (int i = 0; i < arr.Length; i++) {
+            //    Console.WriteLine($"enter element {i+1}");
+            
+            //Console.WriteLine(arr[i]);
+            
+            
+            //}
+
+
+            //MinAndmax(arr, out int max, out int min);
+            //Console.WriteLine($"max value is :: {max}");
+            //Console.WriteLine($"min value is :: {min}");
 
 
 
