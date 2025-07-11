@@ -1,8 +1,4 @@
-﻿using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Diagnostics.Metrics;
-using System.Reflection;
-using System.Threading.Channels;
+﻿
 
 namespace Assignment
 {
@@ -88,6 +84,33 @@ namespace Assignment
         //    return sum;
         //}
         #endregion
+
+
+        #region Q5
+
+        //static bool Isprime (int num)
+        //{
+        //    if (num <= 1)
+        //    {
+        //        return false;
+
+        //    }
+
+        //    for (int i = 2; i < num / 2; i++)
+        //    {
+            
+        //         if (num % i == 0)
+        //        {
+        //            return false;
+        //        }
+
+               
+        //    }
+        //    return true;
+        //}   
+        #endregion
+
+
 
         static void Main(string[] args)
         {
@@ -200,6 +223,30 @@ namespace Assignment
 
             #endregion
 
+            #region Q5
+
+
+            //5 - Create a function named "IsPrime", which receives an integer number
+            //and retuns true if it is prime, or false if it is not:
+
+            //Console.Write("Enter number ");
+            //int.TryParse(Console.ReadLine(), out int num);
+
+            //if (Isprime(num))
+            //{
+            //    Console.WriteLine(num + " is  prime ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(num + " is  not  prime ");
+
+            //}
+
+
+
+
+
+            #endregion
 
         }
     }
