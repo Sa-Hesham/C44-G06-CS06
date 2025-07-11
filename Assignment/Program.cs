@@ -30,6 +30,34 @@ namespace Assignment
 
         #endregion
 
+
+        
+
+        #region Q2
+        //static int sum(int[] arr)
+        //{
+        //     int sum = 0;
+        //    if (arr is not null)
+        //    {
+        //        for (int i = 0; i < arr.Length; i++)
+        //        {
+        //            sum += arr[i];
+        //        }
+        //    }
+        //    return sum;
+        //}
+
+
+
+        //static void change(ref int[] arr) {
+
+        //    arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+        
+        //}
+
+
+        #endregion
+
         static void Main(string[] args)
         {
 
@@ -70,6 +98,36 @@ namespace Assignment
 
 
             #endregion
+
+
+            #region Q2
+
+
+            //2 - Explain the difference between passing(Reference type
+            //parameters) by value and by reference then write a suitable c# example.
+
+            //1.Passing Reference Type by Value(default)
+            //A copy of the reference is passed.
+            // the adress  of referance will passing  as argument 
+
+
+            //2.Passing Reference Type by Reference(ref)
+            //The actual reference itself is passed.
+            // the refernce will passed as a [ alias name ]
+
+
+            //int[]arr = { 1, 2, 3 };
+            ////Console.WriteLine(sum(arr));
+
+            //change(ref arr);
+            //for (int i = 0; i < arr.Length; i++) {
+
+            //    Console.WriteLine(arr[i]);
+            
+            //}
+       
+            #endregion
+
 
 
 
