@@ -1,7 +1,9 @@
 ﻿
 
+using System.Reflection.Metadata;
 using System.Transactions;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
 {
@@ -113,7 +115,7 @@ namespace Assignment
         //}   
         #endregion
 
-        //#region q6
+        #region q6
         //static void MinAndmax(int[] arr , out int max, out int min)
         //{
 
@@ -129,9 +131,9 @@ namespace Assignment
         //                max = arr[i];
         //            }
         //            if (arr[i] < min) {
-                    
+
         //                min= arr[i];
-                    
+
         //            }
 
         //        }
@@ -143,7 +145,25 @@ namespace Assignment
         //        max = 0;    
         //    }
 
-        }
+        // }
+        #endregion
+
+
+        #region Q7
+
+        //static int factorial(int n) 
+        //{
+        //    int result = 1;
+        //for (int i = 1; i < n; i++)
+        //    {
+
+        //        result *= i;
+
+        //    }
+        
+        //   return result;
+        
+        //}
         #endregion
 
         static void Main(string[] args)
@@ -294,10 +314,10 @@ namespace Assignment
             //int[] arr=new int[size];
             //for (int i = 0; i < arr.Length; i++) {
             //    Console.WriteLine($"enter element {i+1}");
-            
+
             //Console.WriteLine(arr[i]);
-            
-            
+
+
             //}
 
 
@@ -306,6 +326,22 @@ namespace Assignment
             //Console.WriteLine($"min value is :: {min}");
 
 
+
+
+            #endregion
+
+
+            #region Q7
+
+            //7 - Create function to calculate the factorial of the number specified as
+            //    parameter
+
+
+            //Console.Write("enter number");
+            //int.TryParse(Console.ReadLine(), out int n);
+
+
+            //Console.WriteLine($"factorial is {factorial(n)}");
 
 
             #endregion
