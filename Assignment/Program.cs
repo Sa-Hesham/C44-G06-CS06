@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Metrics;
 using System.Reflection;
 using System.Threading.Channels;
 
@@ -68,6 +69,24 @@ namespace Assignment
         //    sub = a - b;
         //}
 
+        #endregion
+
+
+        #region Q4
+
+        //static int Sumnumberdigits(int number)
+        //{
+        //    int sum = 0;
+        //    while (number > 0)
+        //    {
+
+        //        sum += number % 10;
+        //        number /= 10;
+
+        //    }
+
+        //    return sum;
+        //}
         #endregion
 
         static void Main(string[] args)
@@ -141,7 +160,7 @@ namespace Assignment
             #endregion
 
 
-          
+
 
 
 
@@ -161,6 +180,25 @@ namespace Assignment
 
             #endregion
 
+
+            #region Q4
+
+            //4 - Write a program in C# Sharp to create a function to calculate the sum of the
+            //    individual digits of a given number.
+            //    Output should be like
+            //    Enter a number: 25
+            //    The sum of the digits of the number 25 is: 7 
+
+
+            //Console.Write("Enter number ");
+            //int.TryParse(Console.ReadLine(), out int num);
+
+            //Console.WriteLine(Sumnumberdigits(num));
+
+
+
+
+            #endregion
 
 
         }
