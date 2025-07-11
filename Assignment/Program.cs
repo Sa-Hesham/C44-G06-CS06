@@ -32,7 +32,7 @@ namespace Assignment
         #endregion
 
 
-        
+
 
         #region Q2
         //static int sum(int[] arr)
@@ -53,9 +53,20 @@ namespace Assignment
         //static void change(ref int[] arr) {
 
         //    arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8 };
-        
+
         //}
 
+
+        #endregion
+
+
+        #region Q3
+
+        //static void SumAndSub(int a,int b , out int sum ,out int sub)
+        //{
+        //    sum = a + b;
+        //    sub = a - b;
+        //}
 
         #endregion
 
@@ -130,15 +141,7 @@ namespace Assignment
             #endregion
 
 
-            #region Q3
-
-            //static void SumAndSub(int a,int b , out int sum ,out int sub)
-            //{
-            //    sum = a + b;
-            //    sub = a - b;
-            //}
-
-            #endregion
+          
 
 
 
