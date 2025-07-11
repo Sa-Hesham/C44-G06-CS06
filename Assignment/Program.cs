@@ -1,6 +1,7 @@
 ﻿
 
 using System.Reflection.Metadata;
+using System.Text;
 using System.Transactions;
 using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -160,10 +161,29 @@ namespace Assignment
         //        result *= i;
 
         //    }
-        
+
         //   return result;
-        
+
         //}
+        #endregion
+
+
+
+        #region Q8
+
+        static string ChangeChar(string input, int position, char newChar)
+        {
+            if (input is null || position < 0 || position >= input.Length)
+            {
+                Console.WriteLine("Invalid input or position.");
+                return input = "";
+            }
+
+            StringBuilder sb = new StringBuilder(input);
+            sb[position] = newChar;
+
+            return sb.ToString();
+        }
         #endregion
 
         static void Main(string[] args)
@@ -344,6 +364,13 @@ namespace Assignment
             //Console.WriteLine($"factorial is {factorial(n)}");
 
 
+            #endregion
+
+
+            #region Q8
+           // string name = "hello";
+           //string change= ChangeChar(name, 1, 'm');
+           // Console.WriteLine(change);
             #endregion
 
         }
