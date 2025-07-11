@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using System.Threading.Channels;
 
@@ -123,11 +124,39 @@ namespace Assignment
             //for (int i = 0; i < arr.Length; i++) {
 
             //    Console.WriteLine(arr[i]);
-            
+
             //}
-       
+
             #endregion
 
+
+            #region Q3
+
+            //static void SumAndSub(int a,int b , out int sum ,out int sub)
+            //{
+            //    sum = a + b;
+            //    sub = a - b;
+            //}
+
+            #endregion
+
+
+
+            #region Q3
+
+            //    Write a c# Function that accept 4 parameters from user and
+            //return result of summation and subtracting of two numbers
+
+            //int a = 10, b = 3;
+            //int sum;
+            //int sub;
+            //SumAndSub(10, 3, out sum, out sub);
+            //Console.WriteLine($"sum = {sum}");
+            //Console.WriteLine($"sub = {sub}");
+
+
+
+            #endregion
 
 
 
